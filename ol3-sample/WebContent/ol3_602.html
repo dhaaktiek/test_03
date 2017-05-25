@@ -1,0 +1,179 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>OpenLayers Examples</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<!-- jQuery 1.11.2 -->
+	<script type="text/javascript" src="./resources/jquery/jquery-1.11.2.min.js"></script>
+	
+	<!-- Bootstrap 3.3.4 -->
+	<link rel="stylesheet" href="./resources/bootstrap/css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="./resources/bootstrap/css/bootstrap-theme.min.css" type="text/css">
+	<script type="text/javascript" src="./resources/bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- OpenLayers 3.3.0 -->
+	<link rel="stylesheet" href="./resources/ol3/css/ol.css" type="text/css">
+	<script type="text/javascript" src="./resources/ol3/build/ol-debug.js"></script>
+	
+	<!-- Proj4js -->
+	<script type="text/javascript" src="./resources/proj4js/proj4.js"></script>
+	<script type="text/javascript" src="http://epsg.io/5179.js"></script>
+	
+	<link rel="stylesheet" href="./style.css" type="text/css">
+</head>
+
+<body>
+	<div id="wrap">
+		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">OpenLayers 3</a>
+				</div>
+				<div class="navbar-collapse collapse">
+					<form class="navbar-form navbar-right" role="form" action="./index.html">
+						<button type="submit" class="btn btn-success">뒤로 돌아가기</button>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<!-- Content Layout Start-->
+		<div id="content" class="container">
+			<div id="toolbox">
+				<div class="btn-group" data-toggle="buttons">
+					<label class="btn btn-default active">
+						<input type="radio" name="editor-options" value="select">Select
+					</label>
+					<label class="btn btn-default">
+						<input type="radio" name="editor-options" value="point">POINT
+					</label>
+					<label class="btn btn-default">
+						<input type="radio" name="editor-options" value="line">LINE
+					</label>
+					<label class="btn btn-default">
+						<input type="radio" name="editor-options" value="polygon">Polygon
+					</label>
+					<label class="btn btn-default">
+						<input type="radio" name="editor-options" value="modify">Modify
+					</label>
+				</div>
+			</div>
+			<div id="map"></div>
+			<br>
+			<div>
+				<pre></pre>
+			</div>
+		</div>
+		<!-- Content Layout End-->
+	</div>
+
+	<div id="footer">
+		<div class="container">
+			<p class="text-muted text-center">OSGeo Korean Chapter</p>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+	
+		var featureOverlay = new ol.FeatureOverlay({
+			style: new ol.style.Style({
+				fill : new ol.style.Fill({
+					color: 'rgba(255, 255, 255, 0.5)'
+				}),
+				stroke : new ol.style.Stroke({
+					color : 'rgba(55, 155, 55, 0.8)',
+					width : 5
+				}),
+				image: new ol.style.Circle({
+					radius: 10,
+					fill: new ol.style.Fill({
+						color: '#ffcc33'
+		            })
+				})
+			})
+		});
+		
+		
+		var editInteractions = {
+			
+			select : new ol.interaction.Select({
+				condition: ol.events.condition.click
+				//condition: ol.events.condition.pointerMove
+			}),
+			
+			point : new ol.interaction.Draw({
+				type : 'Point',
+				features: featureOverlay.getFeatures(),
+				snapTolerance: 12,
+				minPointsPerRing: 3
+			}),
+
+			line : new ol.interaction.Draw({
+				type : 'LineString',
+				features: featureOverlay.getFeatures()
+			}),
+
+			polygon : new ol.interaction.Draw({
+				type : 'Polygon',
+				features: featureOverlay.getFeatures()
+			}),
+			
+			modify : new ol.interaction.Modify({
+				deleteCondition: ol.events.condition.singleClick, //ShiftKey + Click
+				features: featureOverlay.getFeatures()
+			})
+		};
+		
+		
+		var map = new ol.Map({
+			target : 'map',
+			view : new ol.View({
+				center : ol.proj.transform([ 131.86656, 37.24125 ], 'EPSG:4326', 'EPSG:3857'),
+				zoom : 16,
+				minZoom : 10,
+				maxZoom : 18
+			}),
+			
+			controls : [ new ol.control.Zoom() ],
+			
+			interactions: [
+				new ol.interaction.DragPan(),
+				new ol.interaction.DoubleClickZoom()
+			],
+			
+			layers : [
+				new ol.layer.Tile({
+					source : new ol.source.XYZ({
+						attributions : new ol.Attribution({
+							html : 'Data by <a href="http://map.vworld.kr">VWORLD</a>"'
+						}),
+						url : 'http://xdworld.vworld.kr:8080/2d/Base/201310/{z}/{x}/{y}.png'
+					})
+				})
+			]
+		});
+		
+		featureOverlay.setMap(map);
+		
+		
+		var activeInteraction;
+		$('input[name=editor-options]').on('change', function(e) {
+			
+			if (activeInteraction!=null || activeInteraction==undefined)
+				map.removeInteraction(activeInteraction);
+			
+			activeInteraction = eval("editInteractions."+$(this).val());
+			
+			map.addInteraction(activeInteraction);
+		});
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>OpenLayers Examples</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<!-- jQuery 1.11.2 -->
+	<script type="text/javascript" src="./resources/jquery/jquery-1.11.2.min.js"></script>
+	
+	<!-- Bootstrap 3.3.4 -->
+	<link rel="stylesheet" href="./resources/bootstrap/css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="./resources/bootstrap/css/bootstrap-theme.min.css" type="text/css">
+	<script type="text/javascript" src="./resources/bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- OpenLayers 3.3.0 -->
+	<link rel="stylesheet" href="./resources/ol3/css/ol.css" type="text/css">
+	<script type="text/javascript" src="./resources/ol3/build/ol-debug.js"></script>
+	
+	<!-- Proj4js -->
+	<script type="text/javascript" src="./resources/proj4js/proj4.js"></script>
+	
+	
+	<link rel="stylesheet" href="./style.css" type="text/css">
+</head>
+
+<body>
+	<div id="wrap">
+		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">OpenLayers 3</a>
+				</div>
+				<div class="navbar-collapse collapse">
+					<form class="navbar-form navbar-right" role="form" action="./index.html">
+						<button type="submit" class="btn btn-success">뒤로 돌아가기</button>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<!-- Content Layout Start-->
+		<div id="content" class="container">
+			<div id="toolbox">
+				<label class="checkbox-inline">
+					<input type="checkbox" class="interaction-checkbox" value="doubleclickzoom" checked> DoubleClickZoom
+				</label>
+				<label class="checkbox-inline">
+					<input type="checkbox" class="interaction-checkbox" value="mousewheelzoom"> MouseWheelZoom
+				</label>
+				<label class="checkbox-inline">
+					<input type="checkbox" class="interaction-checkbox" value="dragzoom"> DragZoom
+				</label>
+				<label class="checkbox-inline">
+					<input type="checkbox" class="interaction-checkbox" value="dragpan" checked> DragPan
+				</label>
+				<label class="checkbox-inline">
+					<input type="checkbox" class="interaction-checkbox" value="dragbox"> DragBox
+				</label>
+				<label class="checkbox-inline">
+					<input type="checkbox" class="interaction-checkbox" value="dragrotate"> DragRotate
+				</label>
+				<label class="checkbox-inline">
+					<input type="checkbox" class="interaction-checkbox" value="dragrotateandzoom"> DragRotateAndZoom
+				</label>
+				<label class="checkbox-inline">
+					<input type="checkbox" class="interaction-checkbox" value="keyboardpan"> KeyboardPan
+				</label>
+				<label class="checkbox-inline">
+					<input type="checkbox" class="interaction-checkbox" value="keyboardzoom"> KeyboardZoom
+				</label>
+			</div>
+			<div id="map"></div>
+			<br>
+			<div>
+				<pre></pre>
+			</div>
+		</div>
+		<!-- Content Layout End-->
+	</div>
+
+	<div id="footer">
+		<div class="container">
+			<p class="text-muted text-center">OSGeo Korean Chapter</p>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		var interactions = {
+			doubleclickzoom: new ol.interaction.DoubleClickZoom({
+				duration: 500,
+				delta: 1
+			}),
+			mousewheelzoom: new ol.interaction.MouseWheelZoom({
+				duration: 1000
+			}),
+			dragzoom: new ol.interaction.DragZoom({
+				condition: ol.events.condition.shiftKeysOnly,
+				style: new ol.style.Style({
+					fill: new ol.style.Fill({
+                        color: 'rgba(255, 255, 0, 0.1)'
+                    }),
+                    stroke: new ol.style.Stroke({
+                    	color: '#000',
+                    	width: 2
+                    })
+				})
+			}),
+			
+			//ol.Kinetic(decay, minVelocity, delay)
+			//kinetic: new ol.Kinetic(-0.005, 0.05, 100)
+			
+			dragpan: new ol.interaction.DragPan(),
+			
+			dragbox: new ol.interaction.DragBox({
+				condition: ol.events.condition.always,
+				style: new ol.style.Style({
+					stroke: new ol.style.Stroke({
+						color: [0, 0, 255, 1]
+					})
+				})
+			}),
+			
+			dragrotate: new ol.interaction.DragRotate({
+				condition: ol.events.condition.altShiftKeysOnly
+			}),
+			dragrotateandzoom: new ol.interaction.DragRotateAndZoom({
+				condition: ol.events.condition.shiftKeysOnly
+			})
+			
+			//select: new ol.interaction.Select(),
+			//draw: new ol.interaction.Draw(),
+			//modify: new ol.interaction.Modify(),
+		};
+		
+		
+		var map = new ol.Map({
+			target: 'map',
+			view: new ol.View({
+				center: [14198392.96, 4380554.07],
+				zoom: 6,
+				minZoom: 5,
+				maxZoom: 12
+			}),
+			controls: [
+				new ol.control.Zoom()
+			],
+			interactions: [
+				interactions.dragpan,
+				interactions.doubleclickzoom
+            ],
+			layers: [
+				new ol.layer.Tile({
+					source: new ol.source.OSM()
+				})
+			]
+		});
+		
+		
+		$('.interaction-checkbox').on('click', function(e) {
+			var interactionObj = eval("interactions."+$(this).val());
+			
+			if ($(this).is(':checked')) {
+				map.addInteraction(interactionObj);
+			} else {
+				map.removeInteraction(interactionObj);
+			}
+		});
+		
+	</script>
+</body>
+
+</html>

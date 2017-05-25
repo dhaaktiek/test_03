@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns2="http://www.google.com/kml/ext/2.2" xmlns:ns3="http://www.w3.org/2005/Atom" xmlns:ns4="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <Schema name="policestation_1" id="policestation_1">
+            <SimpleField type="string" name="NAM"/>
+            <SimpleField type="string" name="ADDR"/>
+            <SimpleField type="string" name="TEL"/>
+            <SimpleField type="string" name="FAX"/>
+        </Schema>
+        <Folder>
+            <name>policestation</name>
+            <Placemark id="policestation.1">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#policestation_1">
+                        <SimpleData name="NAM">¼­¿ïÁö¹æ°æÂûÃ»</SimpleData>
+                        <SimpleData name="ADDR">¼­¿ï½Ã Á¾·Î±¸ ³»ÀÚµ¿ 201-11</SimpleData>
+                        <SimpleData name="TEL">02)736-0112</SimpleData>
+                        <SimpleData name="FAX">02)754-7700</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>126.97184646655094,37.57517041386543</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="policestation.2">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#policestation_1">
+                        <SimpleData name="NAM">¼­¿ï°­³²°æÂû¼­</SimpleData>
+                        <SimpleData name="ADDR">¼­¿ï½Ã °­³²±¸ ´ëÄ¡3µ¿ 998</SimpleData>
+                        <SimpleData name="TEL">02)568-0112</SimpleData>
+                        <SimpleData name="FAX">02)568-7149</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>127.06709378096988,37.50907966375033</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="policestation.3">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#policestation_1">
+                        <SimpleData name="NAM">¼­¿ï°­µ¿°æÂû¼­</SimpleData>
+                        <SimpleData name="ADDR">¼­¿ï½Ã °­µ¿±¸ ¼º³»µ¿ 540-1</SimpleData>
+                        <SimpleData name="TEL">02)470-0112</SimpleData>
+                        <SimpleData name="FAX">02)487-8685</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>127.12426045345023,37.52997294939652</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="policestation.4">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#policestation_1">
+                        <SimpleData name="NAM">¼­¿ï°­ºÏ°æÂû¼­</SimpleData>
+                        <SimpleData name="ADDR">¼­¿ï½Ã °­ºÏ±¸ ¹ø1µ¿ 415-15</SimpleData>
+                        <SimpleData name="TEL">02)900-0112</SimpleData>
+                        <SimpleData name="FAX">02)993-4532</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>127.02716818995603,37.63753675353659</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="policestation.5">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#policestation_1">
+                        <SimpleData name="NAM">¼­¿ï°­¼­°æÂû¼­</SimpleData>
+                        <SimpleData name="ADDR">¼­¿ï½Ã °­¼­±¸ È­°î6µ¿ 980-27</SimpleData>
+                        <SimpleData name="TEL">02)2696-0112</SimpleData>
+                        <SimpleData name="FAX">02)2692-8124</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>126.84976948911242,37.551424321988144</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="policestation.6">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#policestation_1">
+                        <SimpleData name="NAM">¼­¿ï°ü¾Ç°æÂû¼­</SimpleData>
+                        <SimpleData name="ADDR">¼­¿ï½Ã °ü¾Ç±¸ ºÀÃµ4µ¿ »ê177-3</SimpleData>
+                        <SimpleData name="TEL">02)874-0112</SimpleData>
+                        <SimpleData name="FAX">02)876-3116</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>126.95087906500288,37.47453563533013</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="policestation.7">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#policestation_1">
+                        <SimpleData name="NAM">¼­¿ï±¤Áø°æÂû¼­</SimpleData>
+                        <SimpleData name="ADDR">¼­¿ï½Ã ±¤Áø±¸ ±¸ÀÇµ¿ 254-32</SimpleData>
+                        <SimpleData name="TEL">02)453-0112</SimpleData>
+                        <SimpleData name="FAX">02)3436-1436</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>127.08373758236326,37.542984743443924</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="policestation.8">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#policestation_1">
+                        <SimpleData name="NAM">¼­¿ï±¸·Î°æÂû¼­</SimpleData>
+                        <SimpleData name="ADDR">¼­¿ï½Ã ±¸·Î±¸ ±¸·Îº»µ¿ 436</SimpleData>
+                        <SimpleData name="TEL">02)864-0112</SimpleData>
+                        <SimpleData name="FAX">02)3281-7919</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>126.88653278552341,37.495005415033425</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="policestation.9">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#policestation_1">
+                        <SimpleData name="NAM">¼­¿ï±ÝÃµ°æÂû¼­</SimpleData>
+                        <SimpleData name="ADDR">¼­¿ï½Ã ±ÝÃµ±¸ ½Å¸²8µ¿ 544</SimpleData>
+                        <SimpleData name="TEL">02)851-0112</SimpleData>
+                        <SimpleData name="FAX">02)862-4811</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>126.90986815609048,37.481491234562775</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="policestation.10">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#policestation_1">
+                        <SimpleData name="NAM">¼­¿ï³²´ë¹®°æÂû¼­</SimpleData>
+                        <SimpleData name="ADDR">¼­¿ï Áß±¸ ³²´ë¹®·Î5°¡ 561</SimpleData>
+                        <SimpleData name="TEL">02)753-1113</SimpleData>
+                        <SimpleData name="FAX">02)778-3179</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>126.97335426627201,37.554874926209905</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="policestation.11">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#policestation_1">
+                        <SimpleData name="NAM">¼­¿ï³ë¿ø°æÂû¼­</SimpleData>
+                        <SimpleData name="ADDR">¼­¿ï½Ã ³ë¿ø±¸ ÇÏ°è1µ¿ 250</SimpleData>
+                        <SimpleData name="TEL">02)971-0112</SimpleData>
+                        <SimpleData name="FAX">02)949-1121</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>127.07126875574565,37.64230766995725</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="policestation.12">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#policestation_1">
+                        <SimpleData name="NAM">¼­¿ïµµºÀ°æÂû¼­</SimpleData>
+                        <SimpleData name="ADDR">¼­¿ï½Ã µµºÀ±¸ Ã¢4µ¿ 17</SimpleData>
+                        <SimpleData name="TEL">02)906-0112</SimpleData>
+                        <SimpleData name="FAX">02)998-4446</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>127.0524502481194,37.65349936615803</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="policestation.13">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#policestation_1">
+                        <SimpleData name="NAM">¼­¿ïµ¿ÀÛ°æÂû¼­</SimpleData>
+                        <SimpleData name="ADDR">¼­¿ï½Ã µ¿ÀÛ±¸ ³ë·®Áø1µ¿ 72</SimpleData>
+                        <SimpleData name="TEL">02)822-0112</SimpleData>
+                        <SimpleData name="FAX">02)825-9825</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>126.94266541263855,37.513181894740036</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="policestation.14">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#policestation_1">
+                        <SimpleData name="NAM">¼­¿ïµ¿´ë¹®°æÂû¼­</SimpleData>
+                        <SimpleData name="ADDR">¼­¿ï½Ã µ¿´ë¹®±¸ Ã»·®¸®µ¿ 229</SimpleData>
+                        <SimpleData name="TEL">02)968-0112</SimpleData>
+                        <SimpleData name="FAX">02)957-7112</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>127.04564419784856,37.58523838221266</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="policestation.15">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#policestation_1">
+                        <SimpleData name="NAM">¼­¿ï¸¶Æ÷°æÂû¼­</SimpleData>
+                        <SimpleData name="ADDR">¼­¿ï½Ã ¸¶Æ÷±¸ ¸¶Æ÷·Î 88</SimpleData>
+                        <SimpleData name="TEL">02)393-0112</SimpleData>
+                        <SimpleData name="FAX">02)393-9740</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>126.95389233243095,37.55089827296678</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="policestation.16">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#policestation_1">
+                        <SimpleData name="NAM">¼­¿ï¹æ¹è°æÂû¼­</SimpleData>
+                        <SimpleData name="ADDR">¼­¿ï½Ã ¼­ÃÊ±¸ ¹æ¹èµ¿ 455-10</SimpleData>
+                        <SimpleData name="TEL">02)583-0112</SimpleData>
+                        <SimpleData name="FAX">02)525-5678</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>126.98286678988201,37.48164540634093</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="policestation.17">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#policestation_1">
+                        <SimpleData name="NAM">¼­¿ï¼­´ë¹®°æÂû¼­</SimpleData>
+                        <SimpleData name="ADDR">¼­¿ï½Ã ¼­´ë¹®±¸ ¹Ì±Ùµ¿ 165</SimpleData>
+                        <SimpleData name="TEL">02)362-0112</SimpleData>
+                        <SimpleData name="FAX">02)362-7000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>126.96667539797821,37.56491485512412</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="policestation.18">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#policestation_1">
+                        <SimpleData name="NAM">¼­¿ï¼­ºÎ°æÂû¼­</SimpleData>
+                        <SimpleData name="ADDR">¼­¿ï½Ã ÀºÆò±¸ ³ì¹øµ¿ 177-15</SimpleData>
+                        <SimpleData name="TEL">02)384-0112</SimpleData>
+                        <SimpleData name="FAX">02)384-0227</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>126.92115243260227,37.60213684519027</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="policestation.19">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#policestation_1">
+                        <SimpleData name="NAM">¼­¿ï¼­ÃÊ°æÂû¼­</SimpleData>
+                        <SimpleData name="ADDR">¼­¿ï½Ã ¼­ÃÊ±¸ ¼­ÃÊ3µ¿ 1726</SimpleData>
+                        <SimpleData name="TEL">02)532-0112</SimpleData>
+                        <SimpleData name="FAX">02)533-1606</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>127.00515019096433,37.49573045455065</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="policestation.20">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#policestation_1">
+                        <SimpleData name="NAM">¼­¿ï¼ºµ¿°æÂû¼­</SimpleData>
+                        <SimpleData name="ADDR">¼­¿ï½Ã ¼ºµ¿±¸ Çà´ç1µ¿ 192-8</SimpleData>
+                        <SimpleData name="TEL">02)2298-0112</SimpleData>
+                        <SimpleData name="FAX">02)2291-4400</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>127.0362355211626,37.56184986852165</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="policestation.21">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#policestation_1">
+                        <SimpleData name="NAM">¼­¿ï¼ººÏ°æÂû¼­</SimpleData>
+                        <SimpleData name="ADDR">¼­¿ï½Ã ¼ººÏ±¸ »ï¼±µ¿5°¡ 411</SimpleData>
+                        <SimpleData name="TEL">02)923-0112</SimpleData>
+                        <SimpleData name="FAX">02)927-5488</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>127.0160326657592,37.58984594386667</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="policestation.22">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#policestation_1">
+                        <SimpleData name="NAM">¼­¿ï¼ÛÆÄ°æÂû¼­</SimpleData>
+                        <SimpleData name="ADDR">¼­¿ï½Ã ¼ÛÆÄ±¸ °¡¶ôµ¿ 9</SimpleData>
+                        <SimpleData name="TEL">02)402-0112</SimpleData>
+                        <SimpleData name="FAX">02)449-4400</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>127.127002215064,37.50202650172475</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="policestation.23">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#policestation_1">
+                        <SimpleData name="NAM">¼­¿ï¼ö¼­°æÂû¼­</SimpleData>
+                        <SimpleData name="ADDR">¼­¿ï½Ã °­³²±¸ °³Æ÷µ¿ 14</SimpleData>
+                        <SimpleData name="TEL">02)459-0112</SimpleData>
+                        <SimpleData name="FAX">02)459-8663</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>127.0769794334059,37.49358199933043</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="policestation.24">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#policestation_1">
+                        <SimpleData name="NAM">¼­¿ï¾çÃµ°æÂû¼­</SimpleData>
+                        <SimpleData name="ADDR">¼­¿ï½Ã ¾çÃµ±¸ ½ÅÁ¤6µ¿ 321</SimpleData>
+                        <SimpleData name="TEL">02)2655-0112</SimpleData>
+                        <SimpleData name="FAX">02)2651-2211</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>126.86546638885419,37.516691299906874</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="policestation.25">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#policestation_1">
+                        <SimpleData name="NAM">¼­¿ï¿µµîÆ÷°æÂû¼­</SimpleData>
+                        <SimpleData name="ADDR">¼­¿ï ¿µµîÆ÷ ´ç»êµ¿3°¡ 2-11</SimpleData>
+                        <SimpleData name="TEL">02)2633-0112</SimpleData>
+                        <SimpleData name="FAX">02)2676-4983</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>126.90101065909496,37.52604344620638</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="policestation.26">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#policestation_1">
+                        <SimpleData name="NAM">¼­¿ï¿ë»ê°æÂû¼­</SimpleData>
+                        <SimpleData name="ADDR">¼­¿ï½Ã ¿ë»ê±¸ ¿øÈ¿·Î 1°¡ 12-12</SimpleData>
+                        <SimpleData name="TEL">02)711-0112</SimpleData>
+                        <SimpleData name="FAX">02)711-0336</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>126.96752880841423,37.54123935760732</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="policestation.27">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#policestation_1">
+                        <SimpleData name="NAM">¼­¿ïÀºÆò°æÂû¼­</SimpleData>
+                        <SimpleData name="ADDR">¼­¿ï½Ã ÀºÆò±¸ ºÒ±¤3µ¿ »ê24</SimpleData>
+                        <SimpleData name="TEL">02)382-0112</SimpleData>
+                        <SimpleData name="FAX">02)352-0922</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>126.92854403890925,37.62836349601165</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="policestation.28">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#policestation_1">
+                        <SimpleData name="NAM">¼­¿ïÁ¾·Î°æÂû¼­</SimpleData>
+                        <SimpleData name="ADDR">¼­¿ï½Ã Á¾·Î±¸ °æ¿îµ¿ 90-18</SimpleData>
+                        <SimpleData name="TEL">02)733-0112</SimpleData>
+                        <SimpleData name="FAX">02)738-4250</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>126.98475854728207,37.57566800863809</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="policestation.29">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#policestation_1">
+                        <SimpleData name="NAM">¼­¿ïÁ¾¾Ï°æÂû¼­</SimpleData>
+                        <SimpleData name="ADDR">¼­¿ï½Ã ¼ººÏ±¸ Á¾¾Ïµ¿ 3-1260</SimpleData>
+                        <SimpleData name="TEL">02)929-0112</SimpleData>
+                        <SimpleData name="FAX">02)921-2929</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>127.03201294218198,37.60215524650168</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="policestation.30">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#policestation_1">
+                        <SimpleData name="NAM">¼­¿ïÁß¶û°æÂû¼­</SimpleData>
+                        <SimpleData name="ADDR">¼­¿ï½Ã Áß¶û±¸ ¹¬2µ¿ 249-2</SimpleData>
+                        <SimpleData name="TEL">02)977-0112</SimpleData>
+                        <SimpleData name="FAX">02)971-9306</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>127.07633883461314,37.60578099241316</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="policestation.31">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#policestation_1">
+                        <SimpleData name="NAM">¼­¿ïÁßºÎ°æÂû¼­</SimpleData>
+                        <SimpleData name="ADDR">¼­¿ï½Ã Áß±¸ Àúµ¿ 2°¡ 62-1</SimpleData>
+                        <SimpleData name="TEL">02)2279-0112</SimpleData>
+                        <SimpleData name="FAX">02)2275-3009</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>126.98948481416983,37.563733036048916</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="policestation.32">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#policestation_1">
+                        <SimpleData name="NAM">¼­¿ïÇýÈ­°æÂû¼­</SimpleData>
+                        <SimpleData name="ADDR">¼­¿ï½Ã Á¾·Î±¸ ÀÎÀÇµ¿ 48-57</SimpleData>
+                        <SimpleData name="TEL">02)762-0112</SimpleData>
+                        <SimpleData name="FAX">02)3676-0115</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>126.99836271470747,37.57210105229022</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>

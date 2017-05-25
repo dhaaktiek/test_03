@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns2="http://www.google.com/kml/ext/2.2" xmlns:ns3="http://www.w3.org/2005/Atom" xmlns:ns4="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <Schema name="firestation_1" id="firestation_1">
+            <SimpleField type="string" name="NAM"/>
+            <SimpleField type="string" name="ADDR"/>
+        </Schema>
+        <Folder>
+            <name>firestation</name>
+            <Placemark id="firestation.1">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#firestation_1">
+                        <SimpleData name="NAM">서울소방본부</SimpleData>
+                        <SimpleData name="ADDR">서울특별시 중구 예장동 6-7 서울소방방재본부</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>126.98892767692904,37.5589544672366</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="firestation.2">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#firestation_1">
+                        <SimpleData name="NAM">강서소방서</SimpleData>
+                        <SimpleData name="ADDR">서울특별시 강서구 등촌1동 630-2 강서소방서</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>126.85997533961583,37.55801384351523</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="firestation.3">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#firestation_1">
+                        <SimpleData name="NAM">양천소방서</SimpleData>
+                        <SimpleData name="ADDR">서울특별시 양천구 목1동 919-6 양천소방서</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>126.87209583000303,37.53037016809404</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="firestation.4">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#firestation_1">
+                        <SimpleData name="NAM">구로소방서</SimpleData>
+                        <SimpleData name="ADDR">서울특별시 구로구 고척1동 63-12 구로소방서</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>126.86520351096786,37.49790228268021</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="firestation.5">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#firestation_1">
+                        <SimpleData name="NAM">영등포소방서</SimpleData>
+                        <SimpleData name="ADDR">서울특별시 영등포구 영등포동4가 99 영등포소방서</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>126.90397110765659,37.51849014479818</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="firestation.6">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#firestation_1">
+                        <SimpleData name="NAM">동작소방서</SimpleData>
+                        <SimpleData name="ADDR">서울특별시 동작구 신대방동 460-19</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>126.91752531137496,37.49477776357422</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="firestation.7">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#firestation_1">
+                        <SimpleData name="NAM">관악소방서</SimpleData>
+                        <SimpleData name="ADDR">서울특별시 관악구 봉천동 1593-3 관악소방서</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>126.95219055403564,37.473914029899944</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="firestation.8">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#firestation_1">
+                        <SimpleData name="NAM">서초소방서</SimpleData>
+                        <SimpleData name="ADDR">서울특별시 서초구 반포동 114-2 서초소방서</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>126.99178986412942,37.49864887752248</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="firestation.9">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#firestation_1">
+                        <SimpleData name="NAM">강남소방서</SimpleData>
+                        <SimpleData name="ADDR">서울특별시 서초구 서초동 1342-2 강남소방서</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>127.02743219605347,37.488081093101094</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="firestation.10">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#firestation_1">
+                        <SimpleData name="NAM">송파소방서</SimpleData>
+                        <SimpleData name="ADDR">서울특별시 송파구 마천동 29-1 송파소방서</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>127.14235708991272,37.499886771531585</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="firestation.11">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#firestation_1">
+                        <SimpleData name="NAM">강동소방서</SimpleData>
+                        <SimpleData name="ADDR">서울특별시 강동구 성내1동 541 강동소방서</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>127.12494158758835,37.52950636727075</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="firestation.12">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#firestation_1">
+                        <SimpleData name="NAM">마포소방서</SimpleData>
+                        <SimpleData name="ADDR">서울특별시 마포구 신수동 100-5 마포소방서</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>126.93299444536103,37.54943151958706</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="firestation.13">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#firestation_1">
+                        <SimpleData name="NAM">용산소방서</SimpleData>
+                        <SimpleData name="ADDR">서울특별시 용산구 한강로2가 2-89 용산소방서</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>126.9713762572255,37.534190398482224</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="firestation.14">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#firestation_1">
+                        <SimpleData name="NAM">광진소방서</SimpleData>
+                        <SimpleData name="ADDR">서울특별시 광진구 구의동 253-23 광진소방서</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>127.08272349124503,37.54488073890201</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="firestation.15">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#firestation_1">
+                        <SimpleData name="NAM">중부소방서</SimpleData>
+                        <SimpleData name="ADDR">서울특별시 중구 무학동 43 중부소방서</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>127.01525042890614,37.564779762993716</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="firestation.16">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#firestation_1">
+                        <SimpleData name="NAM">은평소방서</SimpleData>
+                        <SimpleData name="ADDR">서울특별시 은평구 녹번동 48-5 서부소방서</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>126.93485810366069,37.601214521353505</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="firestation.17">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#firestation_1">
+                        <SimpleData name="NAM">서대문소방서</SimpleData>
+                        <SimpleData name="ADDR">서울특별시 서대문구 연희동 76-12 서대문소방서</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>126.9359386559521,37.573274709179856</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="firestation.18">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#firestation_1">
+                        <SimpleData name="NAM">종로소방서</SimpleData>
+                        <SimpleData name="ADDR">서울특별시 종로구 수송동 146-2 종로소방서</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>126.97916544612688,37.572965255808086</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="firestation.19">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#firestation_1">
+                        <SimpleData name="NAM">동대문소방서</SimpleData>
+                        <SimpleData name="ADDR">서울특별시 동대문구 장안1동 434 동대문소방서</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>127.06669918831302,37.56406441755448</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="firestation.20">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#firestation_1">
+                        <SimpleData name="NAM">성북소방서</SimpleData>
+                        <SimpleData name="ADDR">서울특별시 성북구 종암동 성북소방서</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>127.0317316964279,37.60248323710507</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="firestation.21">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#firestation_1">
+                        <SimpleData name="NAM">중랑소방서</SimpleData>
+                        <SimpleData name="ADDR">서울특별시 중랑구 신내동 644-2 중랑소방서</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>127.09461352490412,37.615427951341445</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="firestation.22">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#firestation_1">
+                        <SimpleData name="NAM">노원소방서</SimpleData>
+                        <SimpleData name="ADDR">서울특별시 노원구 하계1동 251-14 노원소방서</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>127.07094568575333,37.63830400992396</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="firestation.23">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#firestation_1">
+                        <SimpleData name="NAM">도봉소방서</SimpleData>
+                        <SimpleData name="ADDR">서울특별시 도봉구 방학동 708 도봉소방서</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>127.04292211088075,37.664031197164114</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>

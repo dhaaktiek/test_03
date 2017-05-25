@@ -1,0 +1,1604 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns2="http://www.google.com/kml/ext/2.2"
+	xmlns:ns3="http://www.w3.org/2005/Atom" xmlns:ns4="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+	<Document>
+		<Schema name="stores_1" id="stores_1">
+			<SimpleField type="string" name="BRAND" />
+			<SimpleField type="string" name="SOTRE" />
+			<SimpleField type="string" name="NAM" />
+			<SimpleField type="string" name="ADDR" />
+			<SimpleField type="string" name="TEL" />
+		</Schema>
+		<Style id="costco">
+			<IconStyle>
+				<Icon>
+					<href>./resources/data/storesimage/costco.png
+					</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="nc">
+			<IconStyle>
+				<Icon>
+					<href>./resources/data/storesimage/nc.png
+					</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="kims">
+			<IconStyle>
+				<Icon>
+					<href>./resources/data/storesimage/kims.jpg
+					</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="2001">
+			<IconStyle>
+				<Icon>
+					<href>./resources/data/storesimage/2001.png
+					</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="lotte">
+			<IconStyle>
+				<Icon>
+					<href>./resources/data/storesimage/lotte.png
+					</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="homeplus">
+			<IconStyle>
+				<Icon>
+					<href>./resources/data/storesimage/homeplus.png
+					</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="emart">
+			<IconStyle>
+				<Icon>
+					<href>./resources/data/storesimage/emart.png
+					</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="hyundaid">
+			<IconStyle>
+				<Icon>
+					<href>./resources/data/storesimage/hyundaid.png
+					</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="shinsegae">
+			<IconStyle>
+				<Icon>
+					<href>./resources/data/storesimage/shinsegae.png
+					</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="lotted">
+			<IconStyle>
+				<Icon>
+					<href>./resources/data/storesimage/lotted.png
+					</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="ga">
+			<IconStyle>
+				<Icon>
+					<href>./resources/data/storesimage/ga.jpg
+					</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="ak">
+			<IconStyle>
+				<Icon>
+					<href>./resources/data/storesimage/ask.png
+					</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="grand">
+			<IconStyle>
+				<Icon>
+					<href>./resources/data/storesimage/grand.png
+					</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Folder>
+			<name>stores</name>
+			<Placemark id="stores.1">
+				<styleUrl>#costco</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">코스트코</SimpleData>
+						<SimpleData name="SOTRE">상봉점</SimpleData>
+						<SimpleData name="NAM">코스트코 상봉점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 중랑구 상봉동 81</SimpleData>
+						<SimpleData name="TEL">02-439-1144</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.09015768227955,37.59703452023927</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.2">
+				<styleUrl>#nc</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">뉴코아아울렛</SimpleData>
+						<SimpleData name="SOTRE">강남점</SimpleData>
+						<SimpleData name="NAM">뉴코아아울렛 강남점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 서초구 잠원동 70-2</SimpleData>
+						<SimpleData name="TEL"></SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.00785359122122,37.50842535861154</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.3">
+				<styleUrl>#kims</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">킴스클럽마트</SimpleData>
+						<SimpleData name="SOTRE">가양점</SimpleData>
+						<SimpleData name="NAM">킴스클럽마트 가양점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 강서구 가양동 1474</SimpleData>
+						<SimpleData name="TEL">02-2659-8376</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.85371740286749,37.565415181275036</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.4">
+				<styleUrl>#kims</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">킴스클럽마트</SimpleData>
+						<SimpleData name="SOTRE">개봉점</SimpleData>
+						<SimpleData name="NAM">킴스클럽마트 개봉점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 구로구 개봉동 324-1</SimpleData>
+						<SimpleData name="TEL">_02) 2684-2013</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.85378324238386,37.491723442876214</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.5">
+				<styleUrl>#kims</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">킴스클럽마트</SimpleData>
+						<SimpleData name="SOTRE">고덕점</SimpleData>
+						<SimpleData name="NAM">킴스클럽마트 고덕점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 강동구 명일동 15</SimpleData>
+						<SimpleData name="TEL">02-3426-6155</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.14932245280708,37.552002249323735</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.6">
+				<styleUrl>#kims</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">킴스클럽마트</SimpleData>
+						<SimpleData name="SOTRE">답십리점</SimpleData>
+						<SimpleData name="NAM">킴스클럽마트 답십리점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 동대문구 답십리동 530-11</SimpleData>
+						<SimpleData name="TEL"></SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.05279527881146,37.56779884976232</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.7">
+				<styleUrl>#kims</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">킴스클럽마트</SimpleData>
+						<SimpleData name="SOTRE">동작점</SimpleData>
+						<SimpleData name="NAM">킴스클럽마트 동작점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 동작구 사당동 105</SimpleData>
+						<SimpleData name="TEL">_02-596-9584</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.97483612746225,37.49008626721487</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.8">
+				<styleUrl>#kims</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">킴스클럽마트</SimpleData>
+						<SimpleData name="SOTRE">면목점</SimpleData>
+						<SimpleData name="NAM">킴스클럽마트 면목점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 중랑구 면목동 650</SimpleData>
+						<SimpleData name="TEL">02) 432-3100</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.08623129297276,37.57966988343706</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.9">
+				<styleUrl>#kims</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">킴스클럽마트</SimpleData>
+						<SimpleData name="SOTRE">목동점</SimpleData>
+						<SimpleData name="NAM">킴스클럽마트 목동점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 양천구 목동 904</SimpleData>
+						<SimpleData name="TEL">02-2646-4331</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.87079291522484,37.53246263783233</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.10">
+				<styleUrl>#kims</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">킴스클럽마트</SimpleData>
+						<SimpleData name="SOTRE">서초점</SimpleData>
+						<SimpleData name="NAM">킴스클럽마트 서초점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 서초구 서초동 1335</SimpleData>
+						<SimpleData name="TEL">_02-3474-0466</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.02772368710063,37.48878445966471</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.11">
+				<styleUrl>#kims</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">킴스클럽마트</SimpleData>
+						<SimpleData name="SOTRE">성북점</SimpleData>
+						<SimpleData name="NAM">킴스클럽마트 성북점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 성북구 성북동 94-1 성북프라자</SimpleData>
+						<SimpleData name="TEL">02-3672-0226</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.99601267362542,37.594024042817125</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.12">
+				<styleUrl>#kims</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">킴스클럽마트</SimpleData>
+						<SimpleData name="SOTRE">신정점</SimpleData>
+						<SimpleData name="NAM">킴스클럽마트 신정점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 양천구 신정동 119-2</SimpleData>
+						<SimpleData name="TEL">_02) 2062-9730</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.87593220823963,37.52216304092253</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.13">
+				<styleUrl>#kims</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">킴스클럽마트</SimpleData>
+						<SimpleData name="SOTRE">올림픽점</SimpleData>
+						<SimpleData name="NAM">킴스클럽마트 올림픽점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 송파구 방이동 89-11</SimpleData>
+						<SimpleData name="TEL">02-408-1500</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.13244143936674,37.51553307458288</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.14">
+				<styleUrl>#kims</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">킴스클럽마트</SimpleData>
+						<SimpleData name="SOTRE">중곡점</SimpleData>
+						<SimpleData name="NAM">킴스클럽마트 중곡점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 광진구 중곡동 229-1</SimpleData>
+						<SimpleData name="TEL">02-463-1903</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.08116762059643,37.56401058797913</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.15">
+				<styleUrl>#kims</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">킴스클럽마트</SimpleData>
+						<SimpleData name="SOTRE">창동점</SimpleData>
+						<SimpleData name="NAM">킴스클럽마트 창동점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 도봉구 창2동 628-20</SimpleData>
+						<SimpleData name="TEL">02-903-0900</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.03487669944995,37.64356028081454</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.16">
+				<styleUrl>#kims</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">킴스클럽마트</SimpleData>
+						<SimpleData name="SOTRE">화랑점</SimpleData>
+						<SimpleData name="NAM">킴스클럽마트 화랑점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 노원구 공릉동 89-1</SimpleData>
+						<SimpleData name="TEL">02) 948-6767</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.0835107252107,37.620913157001866</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.17">
+				<styleUrl>#kims</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">킴스클럽마트</SimpleData>
+						<SimpleData name="SOTRE">흑석점</SimpleData>
+						<SimpleData name="NAM">킴스클럽마트 흑석점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 동작구 흑석동 97-2</SimpleData>
+						<SimpleData name="TEL">_02-813-9643</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.96203098133456,37.50735241589884</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.18">
+				<styleUrl>#2001</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">2001 아울렛</SimpleData>
+						<SimpleData name="SOTRE">당산점</SimpleData>
+						<SimpleData name="NAM">2001 아울렛 당산점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 영등포구 당산동5가 16-7</SimpleData>
+						<SimpleData name="TEL">02)2068-2001</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.90086566441155,37.53394339640667</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.19">
+				<styleUrl>#2001</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">2001 아울렛</SimpleData>
+						<SimpleData name="SOTRE">중계점</SimpleData>
+						<SimpleData name="NAM">2001 아울렛 중계점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 노원구 중계2.3동 509</SimpleData>
+						<SimpleData name="TEL">02)948-2001</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.06774973337265,37.64139860381551</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.20">
+				<styleUrl>#2001</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">2001 아울렛</SimpleData>
+						<SimpleData name="SOTRE">구로점</SimpleData>
+						<SimpleData name="NAM">2001 아울렛 구로점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 구로구 고척동 76-41</SimpleData>
+						<SimpleData name="TEL">02)2064-2001</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.8625056139326,37.49820140514461</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.21">
+				<styleUrl>#2001</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">2001 아울렛</SimpleData>
+						<SimpleData name="SOTRE">천호점</SimpleData>
+						<SimpleData name="NAM">2001 아울렛 천호점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 강동구 천호동 563</SimpleData>
+						<SimpleData name="TEL">02) 426 - 2001</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.1257837156256,37.541347695821386</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.22">
+				<styleUrl>#2001</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">2001 아울렛</SimpleData>
+						<SimpleData name="SOTRE">불광점</SimpleData>
+						<SimpleData name="NAM">2001 아울렛 불광점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 은평구 대조동 240</SimpleData>
+						<SimpleData name="TEL">02)3417-2001</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.92878044113198,37.60988009255123</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.23">
+				<styleUrl>#2001</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">2001 아울렛</SimpleData>
+						<SimpleData name="SOTRE">모던하우스 타임스퀘어점</SimpleData>
+						<SimpleData name="NAM">2001 아울렛 모던하우스 타임스퀘어점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 영등포구 영등포동4가 441-10</SimpleData>
+						<SimpleData name="TEL">02-812-2001</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.90392368661065,37.51785762088205</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.24">
+				<styleUrl>#lotte</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">롯데마트</SimpleData>
+						<SimpleData name="SOTRE">강변점</SimpleData>
+						<SimpleData name="NAM">롯데마트 강변점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 광진구 구의동 564-4</SimpleData>
+						<SimpleData name="TEL"></SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.09555548252715,37.53567292989693</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.25">
+				<styleUrl>#lotte</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">롯데마트</SimpleData>
+						<SimpleData name="SOTRE">구로점</SimpleData>
+						<SimpleData name="NAM">롯데마트 구로점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 구로구 구로동 636-89</SimpleData>
+						<SimpleData name="TEL">02)2639-2500</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.87260566492476,37.49834757345657</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.26">
+				<styleUrl>#lotte</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">롯데마트</SimpleData>
+						<SimpleData name="SOTRE">금천점</SimpleData>
+						<SimpleData name="NAM">롯데마트 금천점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 금천구 독산동 295-10</SimpleData>
+						<SimpleData name="TEL">02)809-2500</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.89563450040274,37.470678436354696</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.27">
+				<styleUrl>#lotte</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">롯데마트</SimpleData>
+						<SimpleData name="SOTRE">도봉점</SimpleData>
+						<SimpleData name="NAM">롯데마트 도봉점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 도봉구 방학1동 717-6</SimpleData>
+						<SimpleData name="TEL">02)2289-2500</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.04541188021142,37.66781909745614</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.28">
+				<styleUrl>#lotte</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">롯데마트</SimpleData>
+						<SimpleData name="SOTRE">서울역점</SimpleData>
+						<SimpleData name="NAM">롯데마트 서울역점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 중구 봉래동2가 122</SimpleData>
+						<SimpleData name="TEL">02)390-2500</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.97033409134289,37.55594656692192</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.29">
+				<styleUrl>#lotte</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">롯데마트</SimpleData>
+						<SimpleData name="SOTRE">영등포점</SimpleData>
+						<SimpleData name="NAM">롯데마트 영등포점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 영등포구 영등포동8가 62-1</SimpleData>
+						<SimpleData name="TEL">02)2165-2500</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.90448311748634,37.52788719229182</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.30">
+				<styleUrl>#lotte</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">롯데마트</SimpleData>
+						<SimpleData name="SOTRE">월드점</SimpleData>
+						<SimpleData name="NAM">롯데마트 월드점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 송파구 잠실동 40-1</SimpleData>
+						<SimpleData name="TEL">02)411-8800</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.09658056811047,37.511247741158535</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.31">
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">롯데마트</SimpleData>
+						<SimpleData name="SOTRE">중계점</SimpleData>
+						<SimpleData name="NAM">롯데마트 중계점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 노원구 중계동 361</SimpleData>
+						<SimpleData name="TEL">02)2092-2500</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.07083951395217,37.64690781706729</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.32">
+				<styleUrl>#homeplus</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">홈플러스</SimpleData>
+						<SimpleData name="SOTRE">강동점</SimpleData>
+						<SimpleData name="NAM">홈플러스 강동점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 강동구 천호동 42</SimpleData>
+						<SimpleData name="TEL">02-3400-8000</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.14211317950516,37.5457266837433</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.33">
+				<styleUrl>#homeplus</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">홈플러스</SimpleData>
+						<SimpleData name="SOTRE">가양점</SimpleData>
+						<SimpleData name="NAM">홈플러스 가양점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 강서구 가양2동 18-24</SimpleData>
+						<SimpleData name="TEL">02-2063-2080</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.84995436534817,37.56426927814668</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.34">
+				<styleUrl>#homeplus</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">홈플러스</SimpleData>
+						<SimpleData name="SOTRE">강서점</SimpleData>
+						<SimpleData name="NAM">홈플러스 강서점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 강서구 등촌동 639-11</SimpleData>
+						<SimpleData name="TEL">02-2660-8000</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.85468849261129,37.55858171303414</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.35">
+				<styleUrl>#homeplus</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">홈플러스</SimpleData>
+						<SimpleData name="SOTRE">신도림점</SimpleData>
+						<SimpleData name="NAM">홈플러스 신도림점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 구로구 신도림동 337</SimpleData>
+						<SimpleData name="TEL">02-2618-2080</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.8879004120657,37.5097344874868</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.36">
+				<styleUrl>#homeplus</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">홈플러스</SimpleData>
+						<SimpleData name="SOTRE">금천점</SimpleData>
+						<SimpleData name="NAM">홈플러스 금천점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 금천구 독산1동 291-7</SimpleData>
+						<SimpleData name="TEL">02-890-8000</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.89670955684575,37.46876181709465</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.37">
+				<styleUrl>#homeplus</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">홈플러스</SimpleData>
+						<SimpleData name="SOTRE">시흥점</SimpleData>
+						<SimpleData name="NAM">홈플러스 시흥점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 금천구 시흥동 992-47</SimpleData>
+						<SimpleData name="TEL">02-895-2080</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.90066714731216,37.45193881634634</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.38">
+				<styleUrl>#homeplus</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">홈플러스</SimpleData>
+						<SimpleData name="SOTRE">중계점</SimpleData>
+						<SimpleData name="NAM">홈플러스 중계점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 노원구 중계2.3동 509-2</SimpleData>
+						<SimpleData name="TEL">02-986-2080</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.06845946479979,37.63996366955473</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.39">
+				<styleUrl>#emart</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">이마트</SimpleData>
+						<SimpleData name="SOTRE">가양점</SimpleData>
+						<SimpleData name="NAM">이마트 가양점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 강서구 가양3동 449-19</SimpleData>
+						<SimpleData name="TEL">02-2101-1234</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.86171585203522,37.55827562060543</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.40">
+				<styleUrl>#emart</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">이마트</SimpleData>
+						<SimpleData name="SOTRE">구로점</SimpleData>
+						<SimpleData name="NAM">이마트 구로점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 구로구 구로3동 188-26</SimpleData>
+						<SimpleData name="TEL">02-2009-1234</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.89777221493776,37.48444617770124</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.41">
+				<styleUrl>#emart</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">이마트</SimpleData>
+						<SimpleData name="SOTRE">자양점</SimpleData>
+						<SimpleData name="NAM">이마트 자양점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 광진구 자양3동 227-7</SimpleData>
+						<SimpleData name="TEL">02-2024-1234</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.0728586851975,37.5386034693251</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.42">
+				<styleUrl>#emart</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">이마트</SimpleData>
+						<SimpleData name="SOTRE">신도림점</SimpleData>
+						<SimpleData name="NAM">이마트 신도림점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 구로구 구로5동 3-25</SimpleData>
+						<SimpleData name="TEL">02-6715-1234</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.89015820168018,37.5071269411249</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.43">
+				<styleUrl>#emart</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">이마트</SimpleData>
+						<SimpleData name="SOTRE">여의도점</SimpleData>
+						<SimpleData name="NAM">이마트 여의도점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 영등포구 여의도동 47</SimpleData>
+						<SimpleData name="TEL">02-2280-1234</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.92663651160957,37.518215313453865</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.44">
+				<styleUrl>#emart</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">이마트</SimpleData>
+						<SimpleData name="SOTRE">청계천점</SimpleData>
+						<SimpleData name="NAM">이마트 청계천점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 중구 황학동 2545</SimpleData>
+						<SimpleData name="TEL">02-2290-1234</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.02202506825857,37.570859831641485</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.45">
+				<styleUrl>#emart</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">이마트</SimpleData>
+						<SimpleData name="SOTRE">왕십리점</SimpleData>
+						<SimpleData name="NAM">이마트 왕십리점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 성동구 행당동 168-1</SimpleData>
+						<SimpleData name="TEL">02-2200-1234</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.03740492545239,37.56353378688998</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.46">
+				<styleUrl>#emart</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">이마트</SimpleData>
+						<SimpleData name="SOTRE">미아점</SimpleData>
+						<SimpleData name="NAM">이마트 미아점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 성북구 길음동 25-2</SimpleData>
+						<SimpleData name="TEL">02-944-1234</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.02973826364547,37.610965004245266</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.47">
+				<styleUrl>#emart</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">이마트</SimpleData>
+						<SimpleData name="SOTRE">이문점</SimpleData>
+						<SimpleData name="NAM">이마트 이문점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 동대문구 이문동 292-10</SimpleData>
+						<SimpleData name="TEL">02-959-1234</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.06177465528661,37.598632265312695</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.48">
+				<styleUrl>#emart</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">이마트</SimpleData>
+						<SimpleData name="SOTRE">목동점</SimpleData>
+						<SimpleData name="NAM">이마트 목동점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 양천구 목동 962</SimpleData>
+						<SimpleData name="TEL">02)6923-1234</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.87023515179644,37.52583033861907</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.49">
+				<styleUrl>#emart</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">이마트</SimpleData>
+						<SimpleData name="SOTRE">영등포점</SimpleData>
+						<SimpleData name="NAM">이마트 영등포점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 영등포구 영등포동4가 442</SimpleData>
+						<SimpleData name="TEL">02-3468-1234</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.903515992209,37.51784910571232</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.50">
+				<styleUrl>#emart</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">이마트</SimpleData>
+						<SimpleData name="SOTRE">수색점</SimpleData>
+						<SimpleData name="NAM">이마트 수색점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 은평구 수색동 76-14</SimpleData>
+						<SimpleData name="TEL">02-6943-1234</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.8984936878898,37.579799301617925</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.51">
+				<styleUrl>#emart</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">이마트</SimpleData>
+						<SimpleData name="SOTRE">상봉점</SimpleData>
+						<SimpleData name="NAM">이마트 상봉점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 중랑구 망우본동 506-1</SimpleData>
+						<SimpleData name="TEL">(02)490-1234</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.09342460270422,37.596669032222906</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.52">
+				<styleUrl>#emart</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">이마트</SimpleData>
+						<SimpleData name="SOTRE">신월점</SimpleData>
+						<SimpleData name="NAM">이마트 신월점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 양천구 신월동 26</SimpleData>
+						<SimpleData name="TEL">(02)2697-7123</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.8283711631562,37.53986795871623</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.53">
+				<styleUrl>#emart</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">이마트</SimpleData>
+						<SimpleData name="SOTRE">창동점</SimpleData>
+						<SimpleData name="NAM">이마트 창동점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 도봉구 창5동 135-3</SimpleData>
+						<SimpleData name="TEL">(02)901-1234</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.04704833780197,37.651868397087014</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.54">
+				<styleUrl>#emart</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">이마트</SimpleData>
+						<SimpleData name="SOTRE">천호점</SimpleData>
+						<SimpleData name="NAM">이마트 천호점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 강동구 천호2동 454-1</SimpleData>
+						<SimpleData name="TEL">(02)2224-1234</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.12549945564035,37.53868495361885</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.55">
+				<styleUrl>#emart</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">이마트</SimpleData>
+						<SimpleData name="SOTRE">성수점</SimpleData>
+						<SimpleData name="NAM">이마트 성수점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 성동구 성수동2가 333-16</SimpleData>
+						<SimpleData name="TEL">(02)3408-1234</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.0533483652058,37.53998139442138</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.56">
+				<styleUrl>#emart</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">이마트</SimpleData>
+						<SimpleData name="SOTRE">수서점</SimpleData>
+						<SimpleData name="NAM">이마트 수서점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 강남구 수서동 724</SimpleData>
+						<SimpleData name="TEL">(02)451-6123</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.10294857287926,37.48750844995845</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.57">
+				<styleUrl>#emart</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">이마트</SimpleData>
+						<SimpleData name="SOTRE">은평점</SimpleData>
+						<SimpleData name="NAM">이마트 은평점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 은평구 응암동 90-1</SimpleData>
+						<SimpleData name="TEL">(02)380-1234</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.92014669147993,37.60048474029336</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.58">
+				<styleUrl>#emart</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">이마트</SimpleData>
+						<SimpleData name="SOTRE">명일점</SimpleData>
+						<SimpleData name="NAM">이마트 명일점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 강동구 명일2동 46-4</SimpleData>
+						<SimpleData name="TEL">(02)2145-1234</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.15570793277458,37.55472810000304</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.59">
+				<styleUrl>#emart</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">이마트</SimpleData>
+						<SimpleData name="SOTRE">공항점</SimpleData>
+						<SimpleData name="NAM">이마트 공항점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 강서구 과해동 676</SimpleData>
+						<SimpleData name="TEL">(02)2166-1234</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.79856618486349,37.56102190861877</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.60">
+				<styleUrl>#emart</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">이마트</SimpleData>
+						<SimpleData name="SOTRE">월계점</SimpleData>
+						<SimpleData name="NAM">이마트 월계점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 노원구 월계3동 333-1</SimpleData>
+						<SimpleData name="TEL">02) 2092-1234</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.06179018853196,37.62664450514346</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.61">
+				<styleUrl>#emart</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">이마트</SimpleData>
+						<SimpleData name="SOTRE">용산점</SimpleData>
+						<SimpleData name="NAM">이마트 용산점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 용산구 한강로3가 40-999</SimpleData>
+						<SimpleData name="TEL">02) 2012-1234</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.96543156103178,37.529651882356646</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.62">
+				<styleUrl>#emart</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">이마트</SimpleData>
+						<SimpleData name="SOTRE">양재점</SimpleData>
+						<SimpleData name="NAM">이마트 양재점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 서초구 양재동 215</SimpleData>
+						<SimpleData name="TEL">02)2155-1234</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.03675245967233,37.46357760464678</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.63">
+				<styleUrl>#emart</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">이마트</SimpleData>
+						<SimpleData name="SOTRE">역삼점</SimpleData>
+						<SimpleData name="NAM">이마트 역삼점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 강남구 역삼동 755</SimpleData>
+						<SimpleData name="TEL">02-6908-1234</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.04827445841137,37.49943371549627</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.64">
+				<styleUrl>#costco</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">코스트코</SimpleData>
+						<SimpleData name="SOTRE">양평점</SimpleData>
+						<SimpleData name="NAM">코스트코 양평점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 영등포구 양평동3가 65</SimpleData>
+						<SimpleData name="TEL">02-2679-1234</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.89203063490504,37.52775357121254</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.65">
+				<ExtendedData>
+					<styleUrl>#costco</styleUrl>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">코스트코</SimpleData>
+						<SimpleData name="SOTRE">양재점</SimpleData>
+						<SimpleData name="NAM">코스트코 양재점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 서초구 양재동 217-6</SimpleData>
+						<SimpleData name="TEL">02-572-5959</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.03603366145177,37.46204046560665</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.66">
+				<styleUrl>#homeplus</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">홈플러스</SimpleData>
+						<SimpleData name="SOTRE">방학점</SimpleData>
+						<SimpleData name="NAM">홈플러스 방학점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 도봉구 방학동 707-7</SimpleData>
+						<SimpleData name="TEL">02-912-2080</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.04355049274393,37.66497401445769</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.67">
+				<styleUrl>#homeplus</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">홈플러스</SimpleData>
+						<SimpleData name="SOTRE">동대문점</SimpleData>
+						<SimpleData name="NAM">홈플러스 동대문점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 동대문구 용두동 33-1</SimpleData>
+						<SimpleData name="TEL">02-2173-8000</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.0386492424011,37.57467382210786</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.68">
+				<styleUrl>#homeplus</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">홈플러스</SimpleData>
+						<SimpleData name="SOTRE">월드컵점</SimpleData>
+						<SimpleData name="NAM">홈플러스 월드컵점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 마포구 성산동 515-1</SimpleData>
+						<SimpleData name="TEL">02-312-2080</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.8981988801081,37.56806477106747</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.69">
+				<styleUrl>#homeplus</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">홈플러스</SimpleData>
+						<SimpleData name="SOTRE">잠실점</SimpleData>
+						<SimpleData name="NAM">홈플러스 잠실점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 송파구 신천동 7-12</SimpleData>
+						<SimpleData name="TEL">02-3468-8000</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.1028728971197,37.51635816040207</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.70">
+				<styleUrl>#homeplus</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">홈플러스</SimpleData>
+						<SimpleData name="SOTRE">목동점</SimpleData>
+						<SimpleData name="NAM">홈플러스 목동점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 양천구 목1동 919-7</SimpleData>
+						<SimpleData name="TEL">02-2644-2080</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.87314112484012,37.53036038216155</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.71">
+				<styleUrl>#homeplus</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">홈플러스</SimpleData>
+						<SimpleData name="SOTRE">영등포점</SimpleData>
+						<SimpleData name="NAM">홈플러스 영등포점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 영등포구 문래동3가 55-3</SimpleData>
+						<SimpleData name="TEL">02-2165-8000</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.8957705520532,37.51828374226088</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.72">
+				<styleUrl>#homeplus</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">홈플러스</SimpleData>
+						<SimpleData name="SOTRE">면목점</SimpleData>
+						<SimpleData name="NAM">홈플러스 면목점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 중랑구 면목5동 168-2</SimpleData>
+						<SimpleData name="TEL">02-437-2080</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.08184320222635,37.58065612634059</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.73">
+				<styleUrl>#homeplus</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">홈플러스</SimpleData>
+						<SimpleData name="SOTRE">신내점</SimpleData>
+						<SimpleData name="NAM">홈플러스 신내점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 중랑구 신내동 645</SimpleData>
+						<SimpleData name="TEL">02-2024-8000</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.09363062138073,37.61584653658068</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.74">
+				<styleUrl>#lotted</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">롯데백화점</SimpleData>
+						<SimpleData name="SOTRE">본점</SimpleData>
+						<SimpleData name="NAM">롯데백화점 본점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 중구 소공동 1</SimpleData>
+						<SimpleData name="TEL">02-771-2500</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.98149722384419,37.56431548712311</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.75">
+				<styleUrl>#lotted</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">롯데백화점</SimpleData>
+						<SimpleData name="SOTRE">잠실점</SimpleData>
+						<SimpleData name="NAM">롯데백화점 잠실점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 송파구 잠실동 40-1</SimpleData>
+						<SimpleData name="TEL">02-411-2500</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.09910181074596,37.512286038492725</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.76">
+				<styleUrl>#lotted</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">롯데백화점</SimpleData>
+						<SimpleData name="SOTRE">영등포점</SimpleData>
+						<SimpleData name="NAM">롯데백화점 영등포점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 영등포구 영등포동 618-496</SimpleData>
+						<SimpleData name="TEL">02-2632-2500</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.90746958395198,37.516155710069654</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.77">
+				<styleUrl>#lotted</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">롯데백화점</SimpleData>
+						<SimpleData name="SOTRE">청량리점</SimpleData>
+						<SimpleData name="NAM">롯데백화점 청량리점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 동대문구 전농동 620-69</SimpleData>
+						<SimpleData name="TEL">02-96-2500</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.04593934533469,37.57992020197535</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.78">
+				<styleUrl>#lotted</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">롯데백화점</SimpleData>
+						<SimpleData name="SOTRE">관악점</SimpleData>
+						<SimpleData name="NAM">롯데백화점 관악점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 관악구 봉천동 729-22</SimpleData>
+						<SimpleData name="TEL">02-833-2500</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.92495205698076,37.49059568304075</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.79">
+				<styleUrl>#lotted</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">롯데백화점</SimpleData>
+						<SimpleData name="SOTRE">강남점</SimpleData>
+						<SimpleData name="NAM">롯데백화점 강남점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 강남구 대치동 937</SimpleData>
+						<SimpleData name="TEL">02-531-2500</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.05315379029217,37.4970117631622</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.80">
+				<styleUrl>#lotted</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">롯데백화점</SimpleData>
+						<SimpleData name="SOTRE">노원점</SimpleData>
+						<SimpleData name="NAM">롯데백화점 노원점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 노원구 상계동 713</SimpleData>
+						<SimpleData name="TEL">02-950-2500</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.0609660977398,37.655209879166556</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.81">
+				<styleUrl>#lotted</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">롯데백화점</SimpleData>
+						<SimpleData name="SOTRE">명동점(영플라자)</SimpleData>
+						<SimpleData name="NAM">롯데백화점 명동점(영플라자)</SimpleData>
+						<SimpleData name="ADDR">서울특별시 중구 소공동 123</SimpleData>
+						<SimpleData name="TEL">02-771-2500</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.98137385614346,37.56364788921612</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.82">
+				<styleUrl>#lotted</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">롯데백화점</SimpleData>
+						<SimpleData name="SOTRE">미아점</SimpleData>
+						<SimpleData name="NAM">롯데백화점 미아점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 강북구 미아4동 70-6</SimpleData>
+						<SimpleData name="TEL">02-944-2500</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.030355092668,37.61476399076315</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.83">
+				<styleUrl>#lotted</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">롯데백화점</SimpleData>
+						<SimpleData name="SOTRE">건대 스타시티점</SimpleData>
+						<SimpleData name="NAM">롯데백화점 건대 스타시티점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 광진구 자양동 227-342</SimpleData>
+						<SimpleData name="TEL">02-2218-2500</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.07093822445073,37.53898201948393</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.84">
+				<styleUrl>#lotted</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">현대백화점</SimpleData>
+						<SimpleData name="SOTRE">압구정본점</SimpleData>
+						<SimpleData name="NAM">현대백화점 압구정본점</SimpleData>
+						<SimpleData name="ADDR">서울 강남구 압구정동 429</SimpleData>
+						<SimpleData name="TEL">02-547-2233</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.02736350263541,37.52749151570198</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.85">
+				<styleUrl>#hyundaid</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">현대백화점</SimpleData>
+						<SimpleData name="SOTRE">무역센터점</SimpleData>
+						<SimpleData name="NAM">현대백화점 무역센터점</SimpleData>
+						<SimpleData name="ADDR">서울시 강남구 삼성동 159-7</SimpleData>
+						<SimpleData name="TEL">02-552-2233</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.05964141867453,37.50874090934931</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.86">
+				<styleUrl>#hyundaid</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">현대백화점</SimpleData>
+						<SimpleData name="SOTRE">천호점</SimpleData>
+						<SimpleData name="NAM">현대백화점 천호점</SimpleData>
+						<SimpleData name="ADDR">서울시 강동구 천호2동 455-8</SimpleData>
+						<SimpleData name="TEL">02-488-2233</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.12429246256805,37.538952917835424</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.87">
+				<styleUrl>#hyundaid</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">현대백화점</SimpleData>
+						<SimpleData name="SOTRE">신촌점</SimpleData>
+						<SimpleData name="NAM">현대백화점 신촌점</SimpleData>
+						<SimpleData name="ADDR">서울시 서대문구 창천동 30-33</SimpleData>
+						<SimpleData name="TEL">02-3145-2233</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.9356747537336,37.55621404749716</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.88">
+				<styleUrl>#hyundaid</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">현대백화점</SimpleData>
+						<SimpleData name="SOTRE">미아점</SimpleData>
+						<SimpleData name="NAM">현대백화점 미아점</SimpleData>
+						<SimpleData name="ADDR">서울시 성북구 길음동 20-1</SimpleData>
+						<SimpleData name="TEL">02-2117-2233</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.0285956974963,37.6085469716125</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.89">
+				<styleUrl>#hyundaid</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">현대백화점</SimpleData>
+						<SimpleData name="SOTRE">목동점</SimpleData>
+						<SimpleData name="NAM">현대백화점 목동점</SimpleData>
+						<SimpleData name="ADDR">서울시 양천구 목동 916</SimpleData>
+						<SimpleData name="TEL">02-2163-2233</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.8750362656951,37.52659193124506</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.90">
+				<styleUrl>#shinsegae</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">신세계백화점</SimpleData>
+						<SimpleData name="SOTRE">본점</SimpleData>
+						<SimpleData name="NAM">신세계백화점 본점</SimpleData>
+						<SimpleData name="ADDR">서울 중구 충무로1가 52-5</SimpleData>
+						<SimpleData name="TEL">1588-1234</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.98097157809012,37.56103271848508</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.91">
+				<styleUrl>#shinsegae</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">신세계백화점</SimpleData>
+						<SimpleData name="SOTRE">강남점</SimpleData>
+						<SimpleData name="NAM">신세계백화점 강남점</SimpleData>
+						<SimpleData name="ADDR">서울 서초구 반포동 19-3</SimpleData>
+						<SimpleData name="TEL">1588-1234</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.00413076834599,37.50515285379692</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.92">
+				<styleUrl>#shinsegae</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">신세계백화점</SimpleData>
+						<SimpleData name="SOTRE">영등포점</SimpleData>
+						<SimpleData name="NAM">신세계백화점 영등포점</SimpleData>
+						<SimpleData name="ADDR">서울 영등포구 영등포동4가 434-5</SimpleData>
+						<SimpleData name="TEL">1588-1234</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.90547400660046,37.51727898012557</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.93">
+				<styleUrl>#ga</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">갤러리아백화점</SimpleData>
+						<SimpleData name="SOTRE">명품관 WEST</SimpleData>
+						<SimpleData name="NAM">갤러리아백화점 명품관 WEST</SimpleData>
+						<SimpleData name="ADDR">서울 강남구 압구정동 494</SimpleData>
+						<SimpleData name="TEL">02-3449-4114</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.0399590727979,37.528525459777384</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.94">
+				<styleUrl>#ga</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">갤러리아백화점</SimpleData>
+						<SimpleData name="SOTRE">명품관 EAST</SimpleData>
+						<SimpleData name="NAM">갤러리아백화점 명품관 EAST</SimpleData>
+						<SimpleData name="ADDR">서울 강남구 압구정동 515</SimpleData>
+						<SimpleData name="TEL">02-3449-4114</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.03995907361434,37.52853396871485</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.95">
+				<styleUrl>#ga</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">갤러리아백화점</SimpleData>
+						<SimpleData name="SOTRE">콩코스</SimpleData>
+						<SimpleData name="NAM">갤러리아백화점 콩코스</SimpleData>
+						<SimpleData name="ADDR">서울 용산구 동자동 43-205</SimpleData>
+						<SimpleData name="TEL">02-390-4114</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.9706399180672,37.553161022210084</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.96">
+				<styleUrl>#ak</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">AK플라자</SimpleData>
+						<SimpleData name="SOTRE">구로본점</SimpleData>
+						<SimpleData name="NAM">AK플라자 구로본점</SimpleData>
+						<SimpleData name="ADDR">서울특별시 구로구 구로5동 573</SimpleData>
+						<SimpleData name="TEL">02-818-1000</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.88267566561744,37.50115949418995</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.97">
+				<styleUrl>#grand</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">그랜드백화점</SimpleData>
+						<SimpleData name="SOTRE">신촌점</SimpleData>
+						<SimpleData name="NAM">그랜드백화점 신촌점</SimpleData>
+						<SimpleData name="ADDR">서울시 마포구 노고산동 57-1</SimpleData>
+						<SimpleData name="TEL">02-326-0101</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.93586252978173,37.555112605225474</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.98">
+				<styleUrl>#grand</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">그랜드백화점</SimpleData>
+						<SimpleData name="SOTRE">강서점</SimpleData>
+						<SimpleData name="NAM">그랜드백화점 강서점</SimpleData>
+						<SimpleData name="ADDR">서울시 강서구 등촌3동 678-14</SimpleData>
+						<SimpleData name="TEL">02-3665-0101</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>126.83920146169021,37.56032928154804</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="stores.99">
+				<styleUrl>#grand</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#stores_1">
+						<SimpleData name="BRAND">그랜드백화점</SimpleData>
+						<SimpleData name="SOTRE">신당점</SimpleData>
+						<SimpleData name="NAM">그랜드백화점 신당점</SimpleData>
+						<SimpleData name="ADDR">서울시 중구 신당동 366-79</SimpleData>
+						<SimpleData name="TEL">02-2233-0101</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>127.01037934648363,37.55226842581986</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+</kml>

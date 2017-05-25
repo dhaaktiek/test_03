@@ -1,0 +1,175 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>OpenLayers 3 Examples - 라이브러리 준비 </title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<!-- CDN -->
+	<!--
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="http://openlayers.org/en/v3.3.0/css/ol.css" type="text/css">
+	<script type="text/javascript" src="http://openlayers.org/en/v3.3.0/build/ol.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.2.0/proj4.js"></script>
+	-->
+	
+
+	<!-- jQuery 1.11.2 -->
+	<script type="text/javascript" src="./resources/jquery/jquery-1.11.2.min.js"></script>
+
+	<!-- Bootstrap 3.3.4 -->
+	<link rel="stylesheet" href="./resources/bootstrap/css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="./resources/bootstrap/css/bootstrap-theme.min.css" type="text/css">
+	<script type="text/javascript" src="./resources/bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- OpenLayers 3.3.0 -->
+	<link rel="stylesheet" href="./resources/ol3/css/ol.css" type="text/css">
+	<script type="text/javascript" src="./resources/ol3/build/ol-debug.js"></script>
+	
+	<!-- Proj4js -->
+	<script type="text/javascript" src="./resources/proj4js/proj4.js"></script>
+	
+	<style type="text/css">
+		
+		html, body {
+			width: 100%;
+			height: 100%;
+			padding: 0;
+			margin: 0;
+		}
+		
+		#wrap {
+			min-height: 100%;
+			height: auto;
+			margin: 0 auto -40px;
+			padding: 0 0 40px;
+		}
+		
+		#content {
+			padding-top: 50px;
+			padding-bottom: 40px;
+		}
+
+		#map {
+            width: 100%;
+            height: 500px;
+        }
+		
+		#footer {
+			height: 40px;
+			line-height: 40px;
+			background-color: #f5f5f5;
+		}
+		
+		#footer p {
+			margin: 0;
+		}
+		
+	</style>
+			
+</head>
+
+<body>
+
+	<div id="wrap">
+		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+					</button>
+					<a class="navbar-brand" href="#">OpenLayers</a>
+				</div>
+				<div class="navbar-collapse collapse">
+					<form class="navbar-form navbar-right" role="form" action="./index.html">
+						<button type="submit" class="btn btn-success">뒤로 돌아가기</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div id="content" class="container">
+			<div id="map"></div>
+			<br>
+			<div>
+				<pre>
+				</pre>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer">
+		<div class="container">
+			<p class="text-muted text-center">OSGeo Korean Chapter</p>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+	
+		var map = new ol.Map({
+			target : 'map',
+			layers : [ new ol.layer.Tile({
+				source : new ol.source.OSM()
+			}) ],
+			controls: [],
+			interactions: [],
+			view : new ol.View({
+				center : ol.proj.transform([ 127, 36 ], "EPSG:4326",
+						"EPSG:3857"),
+				zoom : 5
+			})
+		});
+		
+		var doubleClickZoom = new ol.interaction.DoubleClickZoom();
+		map.addInteraction(doubleClickZoom);
+		
+		var mouseWheelZoom = new ol.interaction.MouseWheelZoom();
+		map.addInteraction(mouseWheelZoom);
+		
+		var dragZoom = new ol.interaction.DragZoom({
+			style: new ol.style.Style({
+				fill: new ol.style.Fill({
+					color: 'rgba(254,254,254,0.5)'
+				}),
+				stroke: new ol.style.Stroke({
+					color: 'red',
+					width: 5
+				})
+			})
+		});
+		map.addInteraction(dragZoom);
+		
+		var dragPan = new ol.interaction.DragPan({
+			kinetic: new ol.Kinetic(-0.005, 0.05, 100)
+		});
+		map.addInteraction(dragPan);
+		
+
+
+		var dragRotate = new ol.interaction.DragRotate({
+			condition: ol.events.condition.altKeyOnly
+		});
+		//map.addInteraction(dragRotate);
+		
+		var rotate = new ol.control.Rotate();
+		map.addControl(rotate);
+		
+		var dragRotateZoom = new ol.interaction.DragRotateAndZoom({
+			condition: ol.events.condition.altShiftKeysOnly
+		});
+		map.addInteraction(dragRotateZoom);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</script>
+
+</body>
+
+</html>
